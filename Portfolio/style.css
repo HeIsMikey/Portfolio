@@ -38,7 +38,7 @@ nav h1 a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  #3f7b70; 
+    background-color:  rgba(0,0,0,0.6); 
     width: 100%;
     padding: 20px 30px;
 }
@@ -57,7 +57,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color:#393e46;
+    color:#3f7b70;
     transition:  0.3s ease;
 }
 
@@ -102,6 +102,13 @@ header{
 .prog{
     width: 400px;
     margin-right: 100px;
+}
+
+.prog:hover{
+    width: 430px;
+    margin-right: 100px;
+    transition: 0.3s ease-in;
+    transition: 0.3s ease-out;
 }
 
 .about{
